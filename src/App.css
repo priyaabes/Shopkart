@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Syne", sans-serif;
+}
+.top-nav {
+  background-color: #1a1a1a !important;
+  height: 42px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-color {
+  color: #626262;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vl {
+  border-left: 1px solid #626262;
+  height: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-size-s {
+  font-size: 12px;
+}
+.background-img {
+  height: 98vh;
+  background-image: url("../src/icons/black-bg.png");
+}
+.text-color-white {
+  color: #ffffff;
+}
+.see_more_btn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: baseline;
+  position: absolute;
+  top: 672px;
+  left: 113px;
+  border: 1px solid white;
+  height: 28px;
+}
+.product-page {
+  height: 100vh;
+  width: 97vw;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.new-product-title {
+  font-size: 80px;
+  color: black;
+  font-weight: 600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product_category {
+  margin: 27px;
+}
+.category {
+  margin: 15px;
+}
+.category_link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.product_card {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: -webkit-fill-available;
+  padding: 15px;
+  margin: 10px;
+}
+.footer_bg {
+  background-image: url("../src/icons/contact-bg.png");
+  height: 80vh;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  width: 450px;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.send_btn {
+  display: inline-block;
+  border: 2px solid #f07e15;
+  border-radius: 50%;
+  width: 155px;
+  padding: 39px;
+  position: absolute;
+  left: 1100px;
+  background: radial-gradient(5px -9px, circle, white 8%, red 26px);
+  height: 139px;
+  padding: 57px 3px 0 3px;
+  text-align: center;
+  top: 1800px;
+}
+.nav_item_style {
+  margin-right: 100px;
+  font-family: work-sans;
+  font-weight: bold;
+  font-size: 18px;
 }
